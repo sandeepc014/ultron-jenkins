@@ -16,7 +16,7 @@ php artisan seed --class=ProgramCertificatesTableSeeder
 
 php artisan config:clear 
 
-cp /opt/phpcredentials/adapt-credentials /tmp/credentials.php && cp /opt/ultron-core-scripts/php7/2019_12_25_update_adapt_certificate_template_design.php /tmp/
+cp /opt/phpcredentials/adapt-credentials.php /tmp/credentials.php && cp /opt/ultron-core-scripts/php7/2019_12_25_update_adapt_certificate_template_design.php /tmp/
 
 php /tmp/2019_12_25_update_adapt_certificate_template_design.php
 
