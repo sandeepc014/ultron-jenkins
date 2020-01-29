@@ -24,6 +24,8 @@ php artisan portal:publish && php artisan cache:clear
 
 cp .env .env-bkf
 
+cd /var/www/webroots/stage-nbe.linkstreet.co
+
 sed '6 s/.*/APP_SITE_VERSION="'$site_version'"/' .env
 
 echo $'\n#JWPLAYER Fallback\nFALLBACK_JW_PLAYER=false' >> .env
