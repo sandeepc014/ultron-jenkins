@@ -12,7 +12,7 @@ composer update ultron/max-portal
 
 sudo chown -R ubuntu:www-data storage/ bootstrap/ && sudo chmod -R 775 storage/ bootstrap/
 
-php artisan seed --class=ProgramCertificatesTableSeeder 
+php artisan db:seed --class=ProgramCertificatesTableSeeder 
 
 php artisan config:clear 
 

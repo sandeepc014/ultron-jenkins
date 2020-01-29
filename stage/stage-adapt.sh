@@ -12,9 +12,11 @@ composer update ultron/adapt-portal
 
 sudo chown -R ubuntu:www-data storage/ bootstrap/ && sudo chmod -R 775 storage/ bootstrap/
 
-php artisan seed --class=ProgramCertificatesTableSeeder 
+php artisan db:seed --class=ProgramCertificatesTableSeeder 
 
 php artisan config:clear 
+
+cp /opt/phpcredentials/adapt-credentials.php /tmp/credentials.php && cp /opt/ultron-core-scripts/php7/2020_01_27_update_serial_number_in_user_certificates.php /tmp/
 
 cp /opt/phpcredentials/adapt-credentials.php /tmp/credentials.php && cp /opt/ultron-core-scripts/php7/2019_12_25_update_adapt_certificate_template_design.php /tmp/
 
