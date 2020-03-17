@@ -26,7 +26,7 @@ php artisan portal:publish && php artisan cache:clear
 
 cp .env .env-bkf
 
-sed '6 s/.*/APP_SITE_VERSION="'$site_version'"/' .env
+sed '6 s/.*/APP_SITE_VERSION="v'$site_version'"/' .env
 
 echo $'\n#JWPLAYER Fallback\nFALLBACK_JW_PLAYER=false' >> .env
 
