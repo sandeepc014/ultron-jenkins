@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/ultron/ultron-dev.linkstreet.co
+cd /var/www/mount/ultron/ultron-dev.linkstreet.co
 
 
 sudo chown -R ubuntu:www-data storage/ bootstrap/ && sudo chmod -R 775 storage/ bootstrap/
