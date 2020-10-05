@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/ultron/ultron-dev.linkstreet.co
+cd /var/www/mount/ultron/ultron-dev.linkstreet.co
 
 echo ""
 echo "<<<</*****Pulling latest commit into ultron-core from Dev branch*****/>>"
