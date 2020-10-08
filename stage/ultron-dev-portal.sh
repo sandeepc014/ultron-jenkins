@@ -9,7 +9,7 @@ composer update ultron/default-portal
 
 php artisan portal:publish && php artisan cache:clear
 
-cd /var/www/ultron/ultron-dev.linkstreet.co/vendor/ultron/default-portal
+cd /var/www/mount/ultron/ultron-dev.linkstreet.co/vendor/ultron/default-portal
 
 echo ""
 echo "The branch name is"
