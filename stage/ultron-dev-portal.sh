@@ -5,11 +5,11 @@ cd /var/www/mount/ultron/ultron-dev.linkstreet.co
 
 sudo chown -R ubuntu:www-data storage/ bootstrap/ && sudo chmod -R 775 storage/ bootstrap/
 
-composer update ultron/default-portal
+composer update ultron/custom-portal
 
 php artisan portal:publish && php artisan cache:clear
 
-cd /var/www/mount/ultron/ultron-dev.linkstreet.co/vendor/ultron/default-portal
+cd /var/www/mount/ultron/ultron-dev.linkstreet.co/vendor/ultron/custom-portal
 
 echo ""
 echo "The branch name is"
