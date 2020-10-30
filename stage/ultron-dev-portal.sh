@@ -16,6 +16,8 @@ echo "The branch name is"
 echo ""
 echo ""
 
+git branch
+
 echo ""
 echo "The latest five commits of ultron-lang branch"
 echo ""
