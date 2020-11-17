@@ -9,7 +9,7 @@ composer update ultron/default-portal
 
 cd /var/www/mount/ultron/ultron-dev.linkstreet.co/vendor/ultron/default-portal/src/Portal/resources/lang
 
-git pull
+git pull origin master
 
 echo ""
 echo "The branch name is"
@@ -27,7 +27,7 @@ git log -n5
 echo ""
 echo ""
 
-php artisan portal:publish && php artisan cache:clear
+per && publish
 
 cd /var/www/mount/ultron/ultron-dev.linkstreet.co/vendor/ultron/default-portal
 
