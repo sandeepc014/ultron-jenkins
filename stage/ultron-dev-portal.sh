@@ -33,10 +33,8 @@ git log -n5
 echo ""
 echo ""
 
-per && publish
 
 cd /var/www/mount/ultron/ultron-dev.linkstreet.co/vendor/ultron/default-portal
-
 
 
 echo ""
