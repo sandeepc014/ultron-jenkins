@@ -15,7 +15,7 @@ cd /var/www/mount/ultron/ultron-dev.linkstreet.co
 
 sudo chown -R ubuntu:www-data storage bootstrap && sudo chmod -R 775 storage bootstrap
 
-php artisan view:clear && php artisan config:clear && php artisan route:clear && php artisan portal:publish && php artisan cache:clear
+sudo php artisan view:clear && sudo php artisan config:clear && sudo php artisan route:clear && sudo php artisan portal:publish && sudo php artisan cache:clear
 
 cd /var/www/mount/ultron/ultron-dev.linkstreet.co/vendor/ultron/default-portal
 
