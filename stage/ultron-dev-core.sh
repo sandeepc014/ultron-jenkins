@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/www/mount/ultron/ultron-dev.linkstreet.co
+cd /var/www/mvol/ultron/ultron-dev.linkstreet.co
 
 echo ""
 echo "<<<</*****Pulling latest commit into ultron-core from  bug-fix/zoom-registration-issue*****/>>"
