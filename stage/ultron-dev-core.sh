@@ -6,7 +6,7 @@ echo ""
 echo "<<<</*****Pulling latest commit into ultron-core from  dev*****/>>"
 echo ""
 
-git pull origin fix/file-download
+git pull origin dev
 
 sudo chown -R ubuntu:www-data storage/ bootstrap/ && sudo chmod -R 775 storage/ bootstrap/
 
