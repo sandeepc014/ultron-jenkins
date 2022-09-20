@@ -2,6 +2,8 @@
 
 cd /var/www/mvol/ultron/ultron-dev.linkstreet.co
 
+git config core.fileMode false
+
 echo ""
 echo "<<<</*****Pulling latest commit into ultron-core from  dev*****/>>"
 echo ""
